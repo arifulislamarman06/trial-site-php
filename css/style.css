@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    background-image: url(../images/sunrise.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #00000057;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    background-position: center;
+    /* height: 100vh; */
+}
+.navbar{
+    padding: 0px;
+    background: #00000087;
+}
+.banner-content{
+    padding: 217px 0;
+}
+.navbar-brand{
+    color: #fff;
+}
+.navbar-brand h1{
+    font-size: 28px;
+    font-weight: 900;
+    color: white;
+    margin: 0;
+}
+.nav-link{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 3px;
+    font-weight: 600;
+    transition: all 0.4s;
+}
+.nav-link:hover{
+    background-color: #ffffffeb;
+    color: #000;
+}
+.navbar-toggler-icon img{
+    width: 30px;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: rgb(0 0 0 / 97%);
+    background-color: white;
+    }
+.navbar-brand span{
+    display: block;
+    font-weight: 700;
+    font-size: 24px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0px 17px;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+    background-color: transparent;
+    border: none;
+}
+.banner-content .h4, h4 {
+    display: inline;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+}
+.banner-content span{
+    height: 3px;
+    width: 100px;
+    background: red;
+    display: block;
+    margin: auto;
+    transform: translateY(10px);
+    }
+.banner-content .h1, h1 {
+    font-size: 100px;
+    color: white;
+    padding: 20px 0;
+    font-weight: 700;
+}
+.banner-content a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+    background: #ff2323;
+    font-size: 20px;
+    padding: 6px 18px;
+    font-weight: 600;
+}
+.banner-content a:hover{
+    background-color: #ff0000b5;
+}
+.quote-section{
+    background-color: #2f2f2f;
+    padding: 50px 0;
+    color: #fff;
+}
+.quote img{
+    width: 100px;
+    filter: invert(1);
+}
+.quote-section h3{}
+.quote-section p{}
+
+.event-section{
+    padding: 50px;
+}
+.heading{
+    padding-bottom: 80px;
+}
+.heading h1 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 8px;
+}
+.heading span{
+    height: 2px;
+    width: 120px;
+    background: red;
+    display: block;
+    margin: auto;
+}
+.event .img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 4px #9a9a9a;
+}
+.event-section{}
+.event{text-align: center;}
+.event img{}
+.event p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.event h2{padding-top: 30px;font-size: 25px;font-weight: 800;}
+.event a{
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: transparent;
+}
+.banner-section{background-image: url(../images/man.jpg);background-size: cover;background-repeat: no-repeat;}
+.banner-text{
+    padding: 200px 0;
+    /* margin-right: auto; */
+    padding-right: 500px;
+    text-align: start;
+    /* margin-left: auto; */
+}
+.banner-text h1{
+    font-size: 89px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+.banner-text p{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 300;
+}
+.banner-text a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    font-weight: 800;
+}
+.banner-text a i{
+    color: red;
+    margin-left: 10px;
+}
+.banner-text span{
+    background: red;
+    width: 200px;
+    height: 2px;
+    display: inline-block;
+}
+.feature-section{
+    /* padding: 167px; */
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.text{
+    padding-top: 30px;
+    /* padding: 50px; */
+}
+.text h3{
+    font-weight: 700;
+    font-size: 35px;
+}
+.text span{
+    display: block;
+    background: red;
+    width: 120px;
+    height: 2px;
+}
+.text p{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 33px;
+}
+.text a{
+    color: white;
+    background: red;
+    text-transform: uppercase;
+    padding: 11px 25px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.images{}
+.images img{
+    padding-top: 30px;
+}
+footer{
+    background: #2f2f2f;
+    padding: 30px 0;
+    margin-top: 100px;
+}
+footer h6{
+    text-align: center;
+    color: white;
+    line-height: 2.5;
+}

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;600;800&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.registration{
+    display: flex;
+    align-items: center;
+}
+.design{}
+.top-contents{
+    text-align: center;
+}
+.top-contents h2{
+    font-size: 30px;
+    padding-top: 15px;
+}
+.top-contents p{
+    font-size: 20px;
+    margin: 0 auto;
+}
+.top-contents a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    cursor: pointer;
+    margin: 5px auto;
+    padding: 10px;
+    width: 180px;
+    font-weight: 500;
+    border: none;
+}
+.gmail{
+    background: red;
+}
+.gmail:hover{
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background: #ff0000;
+    box-shadow: inset -16px -16px 50px #c70000,
+            inset 16px 16px 50px #ff0000;
+}
+.facebook{
+    background: #305eff;
+}
+.facebook:hover{
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    background: #24a0ff;
+    box-shadow: inset -16px -16px 50px #1c7dc7,
+            inset 16px 16px 50px #2cc3ff;
+}
+.top-contents b{
+    display: block;
+    margin-top: 30px;
+}
+.form-input{}
+form{}
+input{
+    /* background-color: #000!important; */
+    border: 1px solid black!important;
+    color: #0c0c0c!important;
+}
+input[type="submit"]{
+    background: #009dff!important;
+    color: #fff!important;
+    font-size: 20px;
+    font-weight: 400;
+    border: none!important;
+    border-radius: 5px;
+}
+input:focus{
+    outline: none!important;
+    box-shadow: none!important;
+}
+input[type="submit"]:hover{
+    color: #fff!important;
+    border: none!important;
+    border-radius: 5px;
+    background: #009dff;
+    box-shadow: inset 9px 9px 18px #0076bf,
+            inset -9px -9px 18px #00c4ff;
+}
+.login{
+    padding-top: 50px;
+}
+.login2{}
+.login2 p{
+    text-align: center;
+    color: #000;
+    margin: 0 auto;
+}
+.login2 p a{
+    color: #000;
+    font-weight: 600;
+    text-decoration: auto;
+    text-decoration-line: underline;
+}
+.input-group-text {
+    border: 1px solid black;
+    background: #fff;
+}
